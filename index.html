@@ -1,10 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  Ale Martinez
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ale Martínez</title>
+  <style>
+    :root {
+      --cream: #F8F6F0;
+      --teal: #245257;
+      --gold: #C4A574;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--cream);
+      color: var(--teal);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    main {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 24px;
+      text-align: center;
+    }
+    h1 {
+      font-size: clamp(3rem, 8vw, 6rem);
+      font-weight: 400;
+      letter-spacing: -0.035em;
+      line-height: 1.15;
+      margin: 0;
+    }
+    .accent {
+      width: 72px;
+      height: 2px;
+      background: var(--gold);
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
-  <p>
-  </p>
+  <main>
+    <h1>Ale Martínez</h1>
+    <div class="accent" aria-hidden="true"></div>
+  </main>
 </body>
 </html>
